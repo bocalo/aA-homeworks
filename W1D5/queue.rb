@@ -21,3 +21,4 @@ class Queue
 
     attr_reader :underlying_array
 end
+
