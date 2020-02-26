@@ -22,3 +22,9 @@ class Queue
     attr_reader :underlying_array
 end
 
+p underlying_array = [1, 3, 12, 4, 8]
+p queue = Queue.new
+p queue.enqueue(5)
+p queue.dequeue
+p queue.peek
+

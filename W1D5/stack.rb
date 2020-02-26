@@ -21,3 +21,9 @@ class Stack
 
     attr_reader :underlying_array
 end
+
+p underlying_array = [1, 3, 12, 4, 8]
+p stack = Stack.new
+p stack.push(10)
+p stack.pop
+p stack.peek
